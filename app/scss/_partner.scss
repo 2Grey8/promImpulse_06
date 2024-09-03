@@ -1,0 +1,116 @@
+.partner{
+  width: 192rem;
+
+  &__inner{
+    display: block;
+    width: 192rem;
+    margin: 0 auto;
+    margin-bottom: 12rem;
+
+    @include respond(phone){
+      width: 60rem;
+      margin: 0 auto;
+    }
+
+    @include respond(port){
+      width: 90rem;
+      margin: 0 auto;
+    }
+
+    @include respond(land){
+      width: 120rem;
+      margin: 0 auto;
+    }
+  }
+
+  &__title{
+    display: block;
+    width: 22.6rem;
+    margin-left: 37rem;
+    margin-bottom: 5rem;
+
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 150%;
+    color: #000000;
+
+    @include respond(phone){
+      display: block;
+      width: 60rem;
+      margin: 0 auto;
+    }
+
+    @include respond(port){
+      display: block;
+      width: 90rem;
+      margin: 0 auto;
+    }
+
+    @include respond(land){
+      display: block;
+      width: 120rem;
+      margin: 0 auto;
+    }
+  }
+
+  &__group{
+    width: 192rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    @include respond(phone){
+      display: block;
+      width: 60rem;
+      margin: 0 auto;
+    }
+
+    @include respond(port){
+      display: block;
+      width: 90rem;
+      margin: 0 auto;
+    }
+
+    @include respond(land){
+      display: block;
+      width: 120rem;
+      margin: 0 auto;
+    }
+  }
+
+  &__box{
+    display: block;
+    width: 21.8rem;
+    margin-right: 2rem;
+    background: #FAFAFA;
+
+    @include respond(phone){
+      display: block;
+      width: 60rem;
+      margin: 0 auto;
+    }
+
+    @include respond(port){
+      display: block;
+      width: 90rem;
+      margin: 0 auto;
+    }
+
+    @include respond(land){
+      display: block;
+      width: 90rem;
+      margin: 0 auto;
+    }
+  }
+
+  &__img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 3.7rem;
+    padding-bottom: 3.7rem;
+    background-size: cover;
+    width: 9rem;
+  }
+}

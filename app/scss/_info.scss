@@ -1,0 +1,244 @@
+.info{
+  width: 192rem;
+
+  &__inner{
+    display: block;
+    width: 192rem;
+    margin: 0 auto;
+    position: relative;
+
+    @include respond(phone){
+      display: block;
+      width: 60rem;
+      margin: 0 auto;
+    }
+
+    @include respond(port){
+      display: block;
+      width: 90rem;
+      margin: 0 auto;
+    }
+
+    @include respond(land){
+      display: block;
+      width: 120rem;
+      margin: 0 auto;
+    }
+  }
+
+  &__img{
+    display: block;
+    width: 1920px;
+    height: 500px;
+    margin-bottom: 12rem;
+
+    @include respond(phone){
+      display: block;
+      width: 60rem;
+      margin: 0 auto;
+      margin-bottom: 90rem;
+    }
+
+    @include respond(port){
+      display: block;
+      width: 90rem;
+      margin: 0 auto;
+      margin-bottom: 90rem;
+    }
+
+    @include respond(land){
+      display: block;
+      width: 120rem;
+      margin: 0 auto;
+      margin-bottom: 90rem;
+    }
+  }
+
+  &__container{
+    display: block;
+    width: 913px;
+    margin-left: 737px;
+    text-align: left;
+
+    @include respond(phone){
+      width: 60rem;
+      margin: 0 auto;
+    }
+
+    @include respond(port){
+      width: 90rem;
+      margin: 0 auto;
+    }
+
+    @include respond(land){
+      width: 120rem;
+      margin: 0 auto;
+    }
+  }
+
+  &__title{
+    display: block;
+    margin-bottom: 2rem;
+
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 180%;
+    color: #000000;
+
+    @include respond(phone){
+      width: 60rem;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    @include respond(port){
+      width: 90rem;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    @include respond(land){
+      width: 120rem;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+
+  &__text{
+    display: block;
+    margin-bottom: 5rem;
+
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: #000000;
+  }
+
+  &__paragraph{
+    display: block;
+    margin-bottom: 5rem;
+  }
+
+  &__group{
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    position: absolute;
+    top: 40rem;
+    left: 26rem;
+
+    @include respond(phone){
+      display: block;
+      width: 60rem;
+      position: absolute;
+      top: 63rem;
+      left: 0rem;
+    }
+
+    @include respond(port){
+      display: block;
+      width: 90rem;
+      position: absolute;
+      top: 63rem;
+      left: 0rem;
+    }
+
+    @include respond(land){
+      display: block;
+      width: 120rem;
+      position: absolute;
+      top: 63rem;
+      left: 0rem;
+    }
+  }
+
+  &__box{
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+
+    @include respond(phone){
+      display: block;
+      width: 60rem;
+    }
+
+    @include respond(port){
+      display: block;
+      width: 90rem;
+    }
+
+    @include respond(land){
+      display: block;
+      width: 120rem;
+    }
+
+    &_1{
+      display: block;
+      height: 200px;
+      margin-bottom: 10rem;
+      padding-top: 5rem;
+      padding-left: 3rem;
+
+      font-family: "TT Norms";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 46px;
+      line-height: 150%;
+      color: #FFFFFF;
+      background: #118BDD;
+
+      span{
+        display: block;
+        padding-left: 3rem;
+
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+        position: relative;
+
+        &::before{
+          content: "";
+          display: block;
+          width: 20px;
+          height: 20px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url(../img/pin.png);
+          position: absolute;
+          left: -1px;
+        }
+      }
+    }
+
+    &_2{
+      display: block;
+      margin-left: 5rem;
+      margin-bottom: 10rem;
+      text-align: left;
+
+      font-family: "TT Norms";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 80px;
+      line-height: 94px;
+      text-transform: uppercase;
+      color: #118BDD;
+
+      span{
+        display: block;
+        margin-top: 1rem;
+
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 150%;
+        color: #8B8B8B;
+        text-transform: none;
+      }
+    }
+  }
+}
